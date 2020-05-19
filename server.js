@@ -1,7 +1,7 @@
 // Dependencies
 const express = require("express");
 const morgan = require("morgan");
-
+nod
 const mongoose = require("mongoose");
 require('dotenv').config()
 
@@ -17,8 +17,8 @@ app.use(express.json());
 app.use(express.static('public'));
 
 // MongoDB
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
-mongoose.connect(MONGODB_URI, {
+var MONGOLAB_CYAN_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
+mongoose.connect(MONGOLAB_CYAN_URI, {
     useNewUrlParser: true,
     useFindAndModify: false
 })
