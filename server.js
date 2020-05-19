@@ -1,7 +1,6 @@
 // Dependencies
 const express = require("express");
 const morgan = require("morgan");
-nod
 const mongoose = require("mongoose");
 require('dotenv').config()
 
